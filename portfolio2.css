@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background-color: #134B70;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #508C9B;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #f7e7dc90;
+  color: black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 1;
+  width: 100%;
+  background-color: #EEEEEE;
+  padding: 20px;
+}
+
+.main {
+  flex: 3;
+  padding-left: 10px;
+  width: 100%;
+  background-color: #EEEEEE;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #758694;
+}
+
+ul li {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#education > p {
+  margin-left: 50px;
+}
+
+.project {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#subpro {
+  background-color:white;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+
+#subpro > p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+#subimg{
+  width: 400px;
+  height: 200px;  
+  margin-left: 300px;
+}
+h2,h3{ 
+  color: #002379
+}
+.maintex > a >p{
+  font-size: 20px;
+  padding-left: 450px; 
+}
+#visit:hover{
+  background-color: #ffffff93;
+  color: #002379;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+}
+.myimg{
+  border-radius: 50%;
+}
+#text:hover{
+  text-decoration: underline; 
+}
+@media screen and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .header h1,
+  .header h4 {
+    font-size: 24px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .side,
+  .main {
+    width: 100%;
+  }
+
+  .resume a img,
+  .project img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #subpro img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .project p,
+  #education p {
+    margin-left: 0;
+  }
+
+  .project h1 {
+    font-size: 24px;
+  }
+
+  .project h2 {
+    font-size: 20px;
+  }
+
+  .project p {
+    font-size: 16px;
+  }
+
+  .progress h2 {
+    font-size: 20px;
+  }
+
+  .progress p {
+    font-size: 16px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+  .maintex > a >p {
+    font-size: 16px; 
+    padding-left: 20px; 
+  }
+
+}
